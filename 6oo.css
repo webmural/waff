@@ -1,0 +1,35 @@
+::selection {
+  background: lavenderblush;
+  color: rebeccapurple;
+}
+
+:any-link {
+  box-shadow: 0 0 2em 1em coral;
+  background: coral;
+  color: indigo;
+}
+
+:any-link:nth-child(odd) {
+  box-shadow: 0 0 1em 1em lightcoral;
+  background: lightcoral;
+}
+
+:any-link:hover {
+  background: thistle; 
+}
+
+:focus {
+  filter: hue-rotate(-36deg);
+  outline: .382rem dotted;
+}
+
+:active {
+  filter: hue-rotate(-18deg);
+  outline-style: solid;
+}
+
+html {
+  background: rebeccapurple;
+  background-image: linear-gradient(.9turn, lavenderblush 0%, transparent 20%, transparent 80%, lavenderblush);
+  color: lavenderblush;
+}
